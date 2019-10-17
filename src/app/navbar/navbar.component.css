@@ -1,0 +1,48 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.fa {
+  color: white;
+  background-color: red;
+  size: 30px;
+}
+.fa :hover{
+  background-color:red;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid lightgray;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid lightgray;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background:rgb(134, 24, 24);
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#searchbar {
+  opacity: 0.3;
+}
